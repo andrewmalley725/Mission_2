@@ -14,7 +14,7 @@ namespace Mission_2
             string numRolls = Console.ReadLine();
             int rolls = Convert.ToInt32(numRolls);
 
-            Throw th = new Throw(rolls);
+            Throw th = new Throw(rolls); //create instance of throw class
 
             Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS");
             Console.WriteLine("Each \"*\" represents 1% of the total number of rolls.");
